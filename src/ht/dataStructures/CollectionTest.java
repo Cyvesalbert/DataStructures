@@ -1,6 +1,7 @@
 package ht.dataStructures;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -14,6 +15,7 @@ public class CollectionTest {
 		// add elements in colors array to list
 		String[] colors =  { "MAGENTA", "RED", "WHITE", "BLUE", "CYAN" };
 		List<String> list = new ArrayList<String>();
+		
 		
 		for(String color : colors)
 			list.add(color); // add colors to end of list
